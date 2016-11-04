@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2DDF7F91DCC54D30092110A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DDF7F81DCC54D30092110A /* main.m */; };
+		D2DDF7FC1DCC54D30092110A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DDF7FB1DCC54D30092110A /* AppDelegate.m */; };
+		D2DDF7FF1DCC54D30092110A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DDF7FE1DCC54D30092110A /* ViewController.m */; };
+		D2DDF8021DCC54D30092110A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DDF8001DCC54D30092110A /* Main.storyboard */; };
+		D2DDF8041DCC54D30092110A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DDF8031DCC54D30092110A /* Assets.xcassets */; };
+		D2DDF8071DCC54D30092110A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DDF8051DCC54D30092110A /* LaunchScreen.storyboard */; };
+		D2DDF8121DCC54D30092110A /* RegistroBDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DDF8111DCC54D30092110A /* RegistroBDTests.m */; };
+		D2DDF81D1DCC54D30092110A /* RegistroBDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DDF81C1DCC54D30092110A /* RegistroBDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2DDF80E1DCC54D30092110A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2DDF7EC1DCC54D20092110A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2DDF7F31DCC54D30092110A;
+			remoteInfo = RegistroBD;
+		};
+		D2DDF8191DCC54D30092110A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2DDF7EC1DCC54D20092110A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2DDF7F31DCC54D30092110A;
+			remoteInfo = RegistroBD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2DDF7F41DCC54D30092110A /* RegistroBD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegistroBD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DDF7F81DCC54D30092110A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2DDF7FA1DCC54D30092110A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2DDF7FB1DCC54D30092110A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2DDF7FD1DCC54D30092110A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2DDF7FE1DCC54D30092110A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2DDF8011DCC54D30092110A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2DDF8031DCC54D30092110A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2DDF8061DCC54D30092110A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2DDF8081DCC54D30092110A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DDF80D1DCC54D30092110A /* RegistroBDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegistroBDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DDF8111DCC54D30092110A /* RegistroBDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistroBDTests.m; sourceTree = "<group>"; };
+		D2DDF8131DCC54D30092110A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DDF8181DCC54D30092110A /* RegistroBDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegistroBDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DDF81C1DCC54D30092110A /* RegistroBDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistroBDUITests.m; sourceTree = "<group>"; };
+		D2DDF81E1DCC54D30092110A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2DDF7F11DCC54D30092110A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DDF80A1DCC54D30092110A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DDF8151DCC54D30092110A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2DDF7EB1DCC54D20092110A = {
+			isa = PBXGroup;
+			children = (
+				D2DDF7F61DCC54D30092110A /* RegistroBD */,
+				D2DDF8101DCC54D30092110A /* RegistroBDTests */,
+				D2DDF81B1DCC54D30092110A /* RegistroBDUITests */,
+				D2DDF7F51DCC54D30092110A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2DDF7F51DCC54D30092110A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2DDF7F41DCC54D30092110A /* RegistroBD.app */,
+				D2DDF80D1DCC54D30092110A /* RegistroBDTests.xctest */,
+				D2DDF8181DCC54D30092110A /* RegistroBDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2DDF7F61DCC54D30092110A /* RegistroBD */ = {
+			isa = PBXGroup;
+			children = (
+				D2DDF7FA1DCC54D30092110A /* AppDelegate.h */,
+				D2DDF7FB1DCC54D30092110A /* AppDelegate.m */,
+				D2DDF7FD1DCC54D30092110A /* ViewController.h */,
+				D2DDF7FE1DCC54D30092110A /* ViewController.m */,
+				D2DDF8001DCC54D30092110A /* Main.storyboard */,
+				D2DDF8031DCC54D30092110A /* Assets.xcassets */,
+				D2DDF8051DCC54D30092110A /* LaunchScreen.storyboard */,
+				D2DDF8081DCC54D30092110A /* Info.plist */,
+				D2DDF7F71DCC54D30092110A /* Supporting Files */,
+			);
+			path = RegistroBD;
+			sourceTree = "<group>";
+		};
+		D2DDF7F71DCC54D30092110A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2DDF7F81DCC54D30092110A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2DDF8101DCC54D30092110A /* RegistroBDTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2DDF8111DCC54D30092110A /* RegistroBDTests.m */,
+				D2DDF8131DCC54D30092110A /* Info.plist */,
+			);
+			path = RegistroBDTests;
+			sourceTree = "<group>";
+		};
+		D2DDF81B1DCC54D30092110A /* RegistroBDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2DDF81C1DCC54D30092110A /* RegistroBDUITests.m */,
+				D2DDF81E1DCC54D30092110A /* Info.plist */,
+			);
+			path = RegistroBDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2DDF7F31DCC54D30092110A /* RegistroBD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DDF8211DCC54D30092110A /* Build configuration list for PBXNativeTarget "RegistroBD" */;
+			buildPhases = (
+				D2DDF7F01DCC54D30092110A /* Sources */,
+				D2DDF7F11DCC54D30092110A /* Frameworks */,
+				D2DDF7F21DCC54D30092110A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RegistroBD;
+			productName = RegistroBD;
+			productReference = D2DDF7F41DCC54D30092110A /* RegistroBD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2DDF80C1DCC54D30092110A /* RegistroBDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DDF8241DCC54D30092110A /* Build configuration list for PBXNativeTarget "RegistroBDTests" */;
+			buildPhases = (
+				D2DDF8091DCC54D30092110A /* Sources */,
+				D2DDF80A1DCC54D30092110A /* Frameworks */,
+				D2DDF80B1DCC54D30092110A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2DDF80F1DCC54D30092110A /* PBXTargetDependency */,
+			);
+			name = RegistroBDTests;
+			productName = RegistroBDTests;
+			productReference = D2DDF80D1DCC54D30092110A /* RegistroBDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2DDF8171DCC54D30092110A /* RegistroBDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DDF8271DCC54D30092110A /* Build configuration list for PBXNativeTarget "RegistroBDUITests" */;
+			buildPhases = (
+				D2DDF8141DCC54D30092110A /* Sources */,
+				D2DDF8151DCC54D30092110A /* Frameworks */,
+				D2DDF8161DCC54D30092110A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2DDF81A1DCC54D30092110A /* PBXTargetDependency */,
+			);
+			name = RegistroBDUITests;
+			productName = RegistroBDUITests;
+			productReference = D2DDF8181DCC54D30092110A /* RegistroBDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2DDF7EC1DCC54D20092110A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Alfredo Reyes";
+				TargetAttributes = {
+					D2DDF7F31DCC54D30092110A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D2DDF80C1DCC54D30092110A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2DDF7F31DCC54D30092110A;
+					};
+					D2DDF8171DCC54D30092110A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2DDF7F31DCC54D30092110A;
+					};
+				};
+			};
+			buildConfigurationList = D2DDF7EF1DCC54D20092110A /* Build configuration list for PBXProject "RegistroBD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2DDF7EB1DCC54D20092110A;
+			productRefGroup = D2DDF7F51DCC54D30092110A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2DDF7F31DCC54D30092110A /* RegistroBD */,
+				D2DDF80C1DCC54D30092110A /* RegistroBDTests */,
+				D2DDF8171DCC54D30092110A /* RegistroBDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2DDF7F21DCC54D30092110A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DDF8071DCC54D30092110A /* LaunchScreen.storyboard in Resources */,
+				D2DDF8041DCC54D30092110A /* Assets.xcassets in Resources */,
+				D2DDF8021DCC54D30092110A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DDF80B1DCC54D30092110A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DDF8161DCC54D30092110A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2DDF7F01DCC54D30092110A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DDF7FF1DCC54D30092110A /* ViewController.m in Sources */,
+				D2DDF7FC1DCC54D30092110A /* AppDelegate.m in Sources */,
+				D2DDF7F91DCC54D30092110A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DDF8091DCC54D30092110A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DDF8121DCC54D30092110A /* RegistroBDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DDF8141DCC54D30092110A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DDF81D1DCC54D30092110A /* RegistroBDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2DDF80F1DCC54D30092110A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2DDF7F31DCC54D30092110A /* RegistroBD */;
+			targetProxy = D2DDF80E1DCC54D30092110A /* PBXContainerItemProxy */;
+		};
+		D2DDF81A1DCC54D30092110A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2DDF7F31DCC54D30092110A /* RegistroBD */;
+			targetProxy = D2DDF8191DCC54D30092110A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2DDF8001DCC54D30092110A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2DDF8011DCC54D30092110A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2DDF8051DCC54D30092110A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2DDF8061DCC54D30092110A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2DDF81F1DCC54D30092110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2DDF8201DCC54D30092110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2DDF8221DCC54D30092110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RegistroBD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yey.RegistroBD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2DDF8231DCC54D30092110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RegistroBD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yey.RegistroBD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2DDF8251DCC54D30092110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RegistroBDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yey.RegistroBDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RegistroBD.app/RegistroBD";
+			};
+			name = Debug;
+		};
+		D2DDF8261DCC54D30092110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RegistroBDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yey.RegistroBDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RegistroBD.app/RegistroBD";
+			};
+			name = Release;
+		};
+		D2DDF8281DCC54D30092110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RegistroBDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yey.RegistroBDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RegistroBD;
+			};
+			name = Debug;
+		};
+		D2DDF8291DCC54D30092110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RegistroBDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yey.RegistroBDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RegistroBD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2DDF7EF1DCC54D20092110A /* Build configuration list for PBXProject "RegistroBD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DDF81F1DCC54D30092110A /* Debug */,
+				D2DDF8201DCC54D30092110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DDF8211DCC54D30092110A /* Build configuration list for PBXNativeTarget "RegistroBD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DDF8221DCC54D30092110A /* Debug */,
+				D2DDF8231DCC54D30092110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2DDF8241DCC54D30092110A /* Build configuration list for PBXNativeTarget "RegistroBDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DDF8251DCC54D30092110A /* Debug */,
+				D2DDF8261DCC54D30092110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2DDF8271DCC54D30092110A /* Build configuration list for PBXNativeTarget "RegistroBDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DDF8281DCC54D30092110A /* Debug */,
+				D2DDF8291DCC54D30092110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2DDF7EC1DCC54D20092110A /* Project object */;
+}
